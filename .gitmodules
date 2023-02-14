@@ -1,0 +1,8 @@
+[submodule "lvim/.config/lvim"]
+	path = lvim/.config/lvim
+	url = ssh://git@github.com/shuvro/lvim.git
+  branch = custom
+[submodule "tmux"]
+	path = tmux
+	url = ssh://git@github.com/shuvro/.tmux.git
+  branch = custom

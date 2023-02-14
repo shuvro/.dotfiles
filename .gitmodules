@@ -9,3 +9,6 @@
 [submodule "i3/.config/i3/bumblebee-status"]
 	path = i3/.config/i3/bumblebee-status
 	url = ssh://git@github.com/tobi-wan-kenobi/bumblebee-status.git
+[submodule "nvim/.config/nvim"]
+	path = nvim/.config/nvim
+	url = ssh://git@github.com/shuvro/nvim.git

@@ -1,0 +1,15 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	name = shuvro
+	email = shuvro.dhrubo@gmail.com
+[init]
+	defaultBranch = master
+[core]
+	autocrlf = input
+[url "https://github.com/"]
+	insteadOf = git://github.com/

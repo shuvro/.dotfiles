@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/shuvro/programs/polybar-themes/wallpapers/bg_15.jpg' '/home/shuvro/programs/polybar-themes/wallpapers/bg_24.jpg' '/home/shuvro/programs/polybar-themes/wallpapers/bg_18.jpg' 

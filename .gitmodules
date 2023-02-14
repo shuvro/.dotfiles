@@ -6,3 +6,6 @@
 	path = tmux
 	url = ssh://git@github.com/shuvro/.tmux.git
   branch = custom
+[submodule "i3/.config/i3/bumblebee-status"]
+	path = i3/.config/i3/bumblebee-status
+	url = ssh://git@github.com/tobi-wan-kenobi/bumblebee-status.git

@@ -136,3 +136,4 @@ alias networkmanager_dmenu=~/programs/networkmanager-dmenu-2.1.0/networkmanager_
 complete -o nospace -C /usr/bin/nomad nomad
 
 [ -f "/home/shuvro/.ghcup/env" ] && source "/home/shuvro/.ghcup/env" # ghcup-env
+eval "$(op completion zsh)"; compdef _op op

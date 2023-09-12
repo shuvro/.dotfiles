@@ -137,3 +137,6 @@ complete -o nospace -C /usr/bin/nomad nomad
 
 [ -f "/home/shuvro/.ghcup/env" ] && source "/home/shuvro/.ghcup/env" # ghcup-env
 eval "$(op completion zsh)"; compdef _op op
+
+# add Pulumi to the PATH
+export PATH=$PATH:$HOME/.pulumi/bin

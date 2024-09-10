@@ -140,3 +140,6 @@ eval "$(op completion zsh)"; compdef _op op
 
 # add Pulumi to the PATH
 export PATH=$PATH:$HOME/.pulumi/bin
+# create a new folder with name of the nvim distro at  .config/distroname
+# then the following command will install nvim in different locations
+# alias astronvim="NVIM_APPNAME=astronvim nvim"

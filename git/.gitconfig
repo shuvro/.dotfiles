@@ -7,9 +7,16 @@
 [user]
 	name = shuvro
 	email = shuvro.dhrubo@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINKnCMFw2n12/FeuKeSgD9Xcbt4OLKTEcqv7YqESAQ4w
 [init]
-	defaultBranch = master
+	defaultBranch = main
 [core]
 	autocrlf = input
 [url "https://github.com/"]
 	insteadOf = git://github.com/
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
